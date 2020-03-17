@@ -3,7 +3,7 @@ package com.example.restservice.JMS;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Receiver {
 
     @JmsListener(destination = "mailbox", containerFactory = "myFactory")

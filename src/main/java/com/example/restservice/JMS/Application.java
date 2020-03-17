@@ -15,8 +15,8 @@ import org.springframework.jms.support.converter.MessageType;
 
 import javax.jms.ConnectionFactory;
 
-@SpringBootApplication
-@EnableJms
+//@SpringBootApplication
+//@EnableJms
 public class Application {
 
     @Bean
